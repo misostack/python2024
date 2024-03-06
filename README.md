@@ -46,3 +46,11 @@ poetry install
 poetry env info
 poetry env info --path
 ```
+
+## Tips & Tricks
+
+### DateTime
+
+- https://www.programiz.com/python-programming/datetime/timestamp-datetime
+- https://www.datacamp.com/tutorial/converting-strings-datetime-objects
+- https://www.geeksforgeeks.org/how-to-convert-timestamp-string-to-datetime-object-in-python/
