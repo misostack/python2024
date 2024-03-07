@@ -24,3 +24,6 @@ print(message, len(first_name), len(last_name), message.upper())
 print(f'Index of the 1st character of message is {message.find("i")}')
 message = message.replace('John', 'Lee')
 print(message)
+
+print('Lee' in message, 'lee' in message)
+print('tada d'.title(), 'tada d'.upper(), 'tada d'.lower())
