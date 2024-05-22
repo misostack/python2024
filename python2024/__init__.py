@@ -46,3 +46,8 @@ aBinaryNumber = "1111"
 aDecimalFormat = toDecimal(aBinaryNumber)
 
 print(f"{aBinaryNumber} decimal format is {aDecimalFormat}")
+
+# unary operator
+
+a = 3
+print(f"a * -1 - 1 == ~a : ", a * -1 - 1 == ~a)

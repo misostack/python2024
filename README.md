@@ -1,6 +1,18 @@
-# Pybase RSS Tools
+# Python tutorial 2024
 
-> A tool to fetch rss feed and parse data into json, save as json file.
+## Glossary
+
+### Python Entry Level
+
+- Python Basic Part 0 - Syntax
+- Python Basic Part 1 - Strings
+- Python Basic Part 2 - List, Tuple, Dictionary
+- Python Basic Part 3 - Functions, Generators, Scope
+- Python Basic Part 4 - Lambda
+- Python Basic Part 5 - Modules, OOP
+- Python Basic Part 6 - Exception
+- Python Basic Part 7 - File I/O
+- Python Basic Part 8 - Build Notification API with Flask + Firebase + Chrome Extension
 
 ## Fun fact
 
@@ -34,3 +46,11 @@ poetry install
 poetry env info
 poetry env info --path
 ```
+
+## Tips & Tricks
+
+### DateTime
+
+- https://www.programiz.com/python-programming/datetime/timestamp-datetime
+- https://www.datacamp.com/tutorial/converting-strings-datetime-objects
+- https://www.geeksforgeeks.org/how-to-convert-timestamp-string-to-datetime-object-in-python/
