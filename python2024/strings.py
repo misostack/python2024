@@ -27,3 +27,44 @@ print(message)
 
 print('Lee' in message, 'lee' in message)
 print('tada d'.title(), 'tada d'.upper(), 'tada d'.lower())
+
+# string interpolation
+name = "Python2024"
+target = "beginners"
+print(f"This is {name} course for {target}\n")
+
+# string format
+print("This is {} course for {}\n".format(name, target))
+
+# % Operator
+print("This is %s course for %s" % (name, target))
+
+# We can also use expressions inside the curly braces
+x, y = 1, 2
+print(f"{x} + {y} = {x+y}")
+
+# Raw string
+print(r"C:\workplace\nestjs")
+
+# Let's play with string
+alphabet = "abcdefghijklmnopqrstuvwxyz"
+print(f"{alphabet[0]}")
+print(f"{alphabet[-1]}")
+print(alphabet.find("M"))
+
+# replace
+alphabet = alphabet.replace("m", "M")
+print(alphabet)
+
+# slicing
+print(alphabet[0:5])
+
+# split
+print("a,b,c,d,e,f".split(","))
+
+# strip
+print(len(" a ".strip()))
+print(len("    a     ".strip()))
+
+# upper
+print(alphabet[1].upper())
