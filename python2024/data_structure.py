@@ -9,6 +9,10 @@
 - A kind of data structure
 - Ordered, Mutable, Allow Duplicate Values
 - Start and end with square brackets: [1, "a", [2, "b], 3, "c"]
+3. Set
+- A kind of data structure
+- Unordered, no duplication
+- Start and end with curly braces: {1, 2, "a", "b"}
 """
 
 tp = (1, "a", (2, "b"), 3, "c")
@@ -51,4 +55,28 @@ print(ls3)
 
 # help
 
-help(ls1)
+# help(ls1)
+l1 = [1, 2, ]
+s1 = {1, 2, 1, 1, 1, "a", "a", "b"}
+s2 = set("abcdefg")
+l2 = list("abcdefg")
+print(s1)
+print(s2)
+print(l2)
+print(1 in s1)
+print(3 in s2)
+
+s3 = {1, 2, 5}
+s4 = {2, 4, 6}
+# intersection
+s5 = s3 & s4
+print(s5)
+# union
+s6 = s3 | s4
+print(s6)
+# difference
+s7 = s3 - s4
+print(s7)
+# in a or b not both
+s8 = s3 ^ s4
+print(s8)
