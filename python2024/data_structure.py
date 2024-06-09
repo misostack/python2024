@@ -80,3 +80,8 @@ print(s7)
 # in a or b not both
 s8 = s3 ^ s4
 print(s8)
+# comprehension
+s9 = {x * 2 for x in s3}
+s10 = {x for x in s3 if x % 2 == 0}
+print(s9)
+print(s10)
